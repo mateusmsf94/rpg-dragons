@@ -24,4 +24,8 @@ export default abstract class Archetype {
   }
 
   abstract get energyType(): EnergyType;
+
+  static createdArchetypesInstances(): number {
+    throw new Error('Not implemented');
+  }
 }
